@@ -12,7 +12,7 @@
 
 ## ✨ Live Demo
 
-Check out the live portfolio: [stevendevportfolio.com](https://stevendevportfolio.com)
+Check out the live portfolio: [stevendevportfolio.com]([https://stevendevportfolio.com](https://portfolio-website-snowy-gamma.vercel.app/))
 
 <div align="center">
   <img src="public/portfolio-preview.gif" alt="Portfolio Preview" width="80%" />

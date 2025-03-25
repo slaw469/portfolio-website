@@ -113,14 +113,6 @@ This cosmic visualization groups my skills into "constellations" representing di
 ### Code Editor Showcase
 A simulated code editor that displays real code examples in various languages and frameworks. Features syntax highlighting, line numbers, and tabbed navigation between different technologies.
 
-## 📝 Customization
-
-To customize this portfolio for your own use:
-
-1. Update the `constants/index.js` file with your personal information, skills, and projects
-2. Replace images in the `assets/` directory with your own
-3. Modify 3D models in the `public/` directory if desired
-4. Update component content in the `components/` directory to reflect your skills and experience
 
 ## 📱 Responsive Design
 
@@ -154,7 +146,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>Built with ❤️ by Steven</p>
+  <p>Built by Steven</p>
   <p>
     <a href="https://github.com/your-username">GitHub</a> •
     <a href="https://linkedin.com/in/your-profile">LinkedIn</a> •

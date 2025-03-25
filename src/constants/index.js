@@ -16,19 +16,15 @@ import {
   git,
   figma,
   docker,
-  fiver,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   threejs,
-  // Import only the custom images you've added
-  fatburger,
-  fogo,
-  pappadeaux,
+  // Only include the project images that exist
   bear,
   taskmind,
   smarthome,
+  codingcentral,
+  fiver,
+  fogo,
+  pappadeaux
 } from "../assets";
 
 export const navLinks = [
@@ -108,11 +104,14 @@ const technologies = [
   },
 ];
 
+// Create a placeholder for company icons
+const placeholderIcon = "https://placehold.co/100x100?text=Company";
+
 const experiences = [
   {
     title: "Customer Service Representative",
     company_name: "Fogo De Chão Brazilian Steakhouse",
-    icon: fogo, 
+    icon: fogo, // Replacing missing fogo icon
     iconBg: "#383E56",
     date: "Present",
     points: [
@@ -125,9 +124,9 @@ const experiences = [
   {
     title: "Open Source Contributor & Freelance Web Developer",
     company_name: "Self-Employed & GitHub",
-    icon: fiver,
+    icon: fiver, // Replacing missing fiver icon
     iconBg: "#E6DEDD",
-    date: "Current",  // Changed from "2022 - 2023" to "Current"
+    date: "Current",
     points: [
       "Contributed bug fixes and documentation improvements to various open-source projects",
       "Collaborated with developers through pull requests, issue tracking, and code reviews",
@@ -138,7 +137,7 @@ const experiences = [
   {
     title: "Head Waiter",
     company_name: "Pappadeaux Seafood Scratch Kitchen",
-    icon: pappadeaux,
+    icon: pappadeaux, // Replacing missing pappadeaux icon
     iconBg: "#383E56",
     date: "2022 - 2023",
     points: [
@@ -151,9 +150,9 @@ const experiences = [
   {
     title: "Co-Founder",
     company_name: "Coding Central",
-    icon: meta,
+    icon: codingcentral, // Replacing missing meta icon
     iconBg: "#E6DEDD",
-    date: "2022 - 2023",  // Changed from "Dec 2023 - Present · 1 yr 4 mos" to "2022 - 2023"
+    date: "2022 - 2023",
     points: [
       "Served as Secretary for the North Garland chapter with over 100 members",
       "Assisted in local outreach programs at elementary schools to spark interest in computer science, documented professional events, and helped manage the website codingcentral.org",

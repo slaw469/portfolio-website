@@ -9,6 +9,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// Tech icons
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -23,21 +24,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import fiver from "./company/fiver.png";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-// Import your custom company logos
-import fatburger from "./company/fatburger.png";
-import fogo from "./company/fogo.png";
-import pappadeaux from "./company/pappadeaux.png";
-
-// Import your custom project images
+// Project images
 import bear from "./project/bear.png";
 import taskmind from "./project/taskmind.png";
 import smarthome from "./project/smarthome.png";
+
+// Company images
+import codingcentral from "./company/codingcentral.png";
+import fiver from "./company/fiver.png";
+import fogo from "./company/fogo.png";
+import pappadeaux from "./company/pappadeaux.png";
+
+
 
 export {
   logo,
@@ -61,16 +59,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  fiver,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  // Export your custom images
-  fatburger,
-  fogo,
-  pappadeaux,
   bear,
   taskmind,
   smarthome,
+  codingcentral,
+  fiver,
+  fogo,
+  pappadeaux
 };

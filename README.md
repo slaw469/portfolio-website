@@ -139,7 +139,7 @@ The portfolio is designed to work beautifully across all devices:
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/developer-portfolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/slaw469/portfolio-website/issues).
 
 ## 📄 License
 

@@ -3,7 +3,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Text, Sparkles, useTexture } from "@react-three/drei";
 import * as THREE from "three";
 
-// Import your technology icons from your assets
+// Import technology icons from assets
 import {
   html,
   css,
@@ -17,7 +17,7 @@ import {
   docker,
 } from "../assets";
 
-// Define your technologies and their relationships
+// Define technologies and their relationships
 const technologies = [
   { 
     id: "react", 
@@ -91,7 +91,7 @@ const technologies = [
     category: "tools",
     description: "Version control system"
   }
-  // Add more technologies as needed
+  
 ];
 
 // Helper function to draw connections between technologies

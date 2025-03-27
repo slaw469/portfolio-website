@@ -3,7 +3,7 @@ import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { Text, OrbitControls, Stars } from "@react-three/drei";
 import * as THREE from "three";
 
-// Import your technology icons if needed
+
 import {
   html,
   css,
@@ -18,7 +18,7 @@ import {
   docker
 } from "../assets";
 
-// Define your constellations - group related skills together
+// Define constellations - group related skills together
 const constellations = [
   {
     name: "Frontend",
@@ -57,7 +57,7 @@ const constellations = [
       { id: "figma", name: "Figma", size: 0.25, position: [-1, -0.4, 0.1] },
     ]
   },
-  // Add more constellations as needed
+  
 ];
 
 // Star component

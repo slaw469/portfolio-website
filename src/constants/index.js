@@ -17,7 +17,7 @@ import {
   figma,
   docker,
   threejs,
-  // Only include the project images that exist
+  
   bear,
   taskmind,
   smarthome,
@@ -96,11 +96,11 @@ const technologies = [
   },
   {
     name: "Python",
-    icon: figma, // Using figma icon as placeholder for Python
+    icon: figma,
   },
   {
     name: "Java",
-    icon: docker, // Using docker icon as placeholder for Java
+    icon: docker, 
   },
 ];
 
@@ -111,7 +111,7 @@ const experiences = [
   {
     title: "Customer Service Representative",
     company_name: "Fogo De Chão Brazilian Steakhouse",
-    icon: fogo, // Replacing missing fogo icon
+    icon: fogo, 
     iconBg: "#383E56",
     date: "Present",
     points: [
